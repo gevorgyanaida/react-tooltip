@@ -44,23 +44,6 @@ function App() {
           <span>span</span>
         </MyTooltip>
       </section>
-      <section>
-        <MyTooltip text="right" position="right">
-          <MyTooltip text="left" position="left">
-            <MyTooltip text="top" position="top">
-              <MyTooltip text="bottom" position="bottom">
-                <div
-                  style={{
-                    width: "400px",
-                    height: "500px",
-                    backgroundColor: "red",
-                  }}
-                ></div>
-              </MyTooltip>
-            </MyTooltip>
-          </MyTooltip>
-        </MyTooltip>
-      </section>
     </div>
   );
 }
